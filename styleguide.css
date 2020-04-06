@@ -1,4 +1,4 @@
-/* Gør det muligt at når man trykker på siderne, så ruller den stille og roligt ned til den valgte side. Dette er en meget ny funktion, og derfor understøttes det ikke til alle browser.*/	
+/* Gør det muligt at når man trykker på siderne, så ruller den stille og roligt ned til den valgte side. Dette er en meget ny funktion, og derfor understøttes det ikke til alle browser.*/
 html{
 	scroll-behavior: smooth;
 }
@@ -13,28 +13,31 @@ body{
 /* Alle ting der bliver brugt til min navigation */
 nav {
 	width: 100%;
-	background: #162324;
+	background: #f6f6f6;
 	position: fixed;
 	top: 0;
 	z-index: 100%;
+	height: 100px;
 }
 
 nav ul {
-	padding: 25px;
-	padding-top: 25px;
+	margin: 0;
+	padding-top: 36px;
 }
 
 nav li {
  	float: right;
 	list-style: none;
 }
+
 nav li a {
-	padding: 10px 10px;
+	padding: 10px 25px;
 	text-decoration: none;
-  	color:#FFFFFF;
+  	color:#000000;
 	text-align: center;
-	font-family: 'Sulphur Point', sans-serif;
-	font-weight: 300;
+	font-family: 'Century Gothic';
+	font-weight: 700;
+	font-size: 15pt;
 }
 
 /* Denne funktion bruges så når man holder musen over menu punkterne så skiftes farven til pink i stedet for den valgte hvide farve. */
@@ -47,6 +50,31 @@ nav li a:active{
 	font-weight: 700;
 }
 
+.mataslogo {
+	    display: table;
+	    float: left;
+			padding-top: 20px;
+			padding-left: 21px;
+			height: 50px;
+			width: 209px;
+}
+
+/* ----------------------------------------------Responsivitet--------------------------------------------
+@media only screen and (min-width: 1024px) { /* ------------RESPONSIV TIL iPAD PRO--------------------
+
+}
+
+@media only screen and (min-width: 768px) { /* ------------RESPONSIV TIL ALMIDNELIG iPAD--------------*
+	.mataslogo {
+		    display: table;
+		    float: left;
+				padding-top: 20px;
+				padding-left: 21px;
+				height: 50px;
+				width: 210px;
+	}
+--------------*/
+
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 /* For at gøre tingene mere overskueligt så er min CSS stylet i forhold til min navigation i HTML5 hvor "kontakt mig" kommer først, og Forsiden til sidst. */
@@ -56,8 +84,8 @@ section{
 }
 
 #ikoner{
-	height: 800px;
-	background: #C0C8CA;
+	height: 1000px;
+	background: #ffffff;
 	display: inline-block;
 	width: 100%;
 }
@@ -65,8 +93,8 @@ section{
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
 #knapper{
-	height: 1240px;
-	background: #FFFFFF;
+	height: 1000px;
+	background: #f6f1ee;
 	display: inline-block;
 	width: 100%;
 }
@@ -74,7 +102,7 @@ section{
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
 #typogafi{
-	height: 1070px;
+	height: 1000px;
 	background: #FFB1B8;
 	display: inline-block;
 	width: 100%;
@@ -83,8 +111,9 @@ section{
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
 #farver{
-	height: 740px;
-	background: #ffffff;
+	padding-top: 100px;
+	height: 1080px;
+	background: #f6f1ee;
 	display: inline-block;
 	width: 100%;
 }
@@ -93,12 +122,77 @@ section{
 /* Alle elementer til forsiden ligger under denne sektion*/
 
 #introduktion{
-	height: 720px;
-	background: #162324;
+	padding-top: 150px;
+	height: 750px;
+	background: #ffffff;
 	display: inline-block;
 	width: 100%;
 }
 
+h1 {
+	margin: 0;
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 45pt;
+	font-weight: 600;
+}
+
+h2 {
+	margin: 60px 0 0 0;
+	text-align: center;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 20pt;
+	font-weight: 300;
+}
+
+h3 {
+	margin: 50px 0 0 0;
+	text-align: center;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 20pt;
+	font-weight: 700;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+	padding-top: 60px;
+}
+
+.logomatas {
+	display: block;
+  margin: 0;
+	padding-left: 20px;
+	padding-right: 40px;
+	padding-top: 15px;
+	height: 50px;
+	width: 209px;
+}
+
+.UCL-Logo {
+	height: 91px;
+	width: 114px;
+	display: block;
+  margin: 0;
+	padding-left: 80px;
+	padding-right: 80px;
+
+}
+
+.hesehuslogo {
+	height: 195px;
+	width: 251px;
+	display: block;
+  margin: 0;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+/* ------------------------------------------Pil op øverst på siden----------------------------------------*/
 .pilop{
 	width: 5%;
 	padding-right: 50px;
