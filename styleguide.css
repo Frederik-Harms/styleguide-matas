@@ -13,7 +13,7 @@ body{
 /* Alle ting der bliver brugt til min navigation */
 nav {
 	width: 100%;
-	background: #f6f6f6;
+	background: #02254e;
 	position: fixed;
 	top: 0;
 	z-index: 100%;
@@ -33,27 +33,27 @@ nav li {
 nav li a {
 	padding: 10px 25px;
 	text-decoration: none;
-  	color:#000000;
+  	color:#ffffff;
 	text-align: center;
 	font-family: 'Century Gothic';
-	font-weight: 700;
+	font-weight: 100;
 	font-size: 15pt;
 }
 
 /* Denne funktion bruges så når man holder musen over menu punkterne så skiftes farven til pink i stedet for den valgte hvide farve. */
 nav li a:hover {
-	color:#E7345F;
+	color:#f49d75;
 }
 
 nav li a:active{
-	color: #E7345F;
-	font-weight: 700;
+	color: #f49d75;
+	font-weight: 100;
 }
 
 .mataslogo {
 	    display: table;
 	    float: left;
-			padding-top: 20px;
+			padding-top: 21px;
 			padding-left: 21px;
 			height: 50px;
 			width: 209px;
@@ -111,11 +111,58 @@ section{
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
 #farver{
-	padding-top: 100px;
+	padding-top: 150px;
 	height: 1080px;
 	background: #f6f1ee;
 	display: inline-block;
 	width: 100%;
+}
+
+.flex-container-wrap {
+		padding: 10px;
+	  margin: 10px;
+	  list-style: none;
+	  -ms-box-orient: horizontal;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -moz-flex;
+	  display: -webkit-flex;
+	  display: flex;
+}
+
+.wrap    {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.font-CTA {
+  background: #000000;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+
+  line-height: 150px;
+  color: white;
+	font-family: 'Century Gothic'
+  font-size: 2em;
+  text-align: center;
+}
+
+.kampagnebaggrund {
+  background: #f6f1ee;
+	border-radius: 1px;
+	background-color: #000000
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+
+  line-height: 150px;
+  color: #000000;
+	font-family: 'Century Gothic'
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
 }
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
@@ -157,7 +204,7 @@ h3 {
 	font-weight: 700;
 }
 
-.flex-container {
+.flex-container-introduktion {
   display: flex;
   justify-content: center;
 	padding-top: 60px;
