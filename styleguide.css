@@ -10,7 +10,7 @@ body{
 	}
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
-/* Alle ting der bliver brugt til min navigation */	
+/* Alle ting der bliver brugt til min navigation */
 nav {
 	width: 100%;
 	background: #162324;
@@ -27,11 +27,11 @@ nav ul {
 nav li {
  	float: right;
 	list-style: none;
-} 
+}
 nav li a {
-	padding: 10px 10px;	
+	padding: 10px 10px;
 	text-decoration: none;
-  	color:#FFFFFF; 	
+  	color:#FFFFFF;
 	text-align: center;
 	font-family: 'Sulphur Point', sans-serif;
 	font-weight: 300;
@@ -124,7 +124,7 @@ section{
 	margin-bottom: 10px;
 	padding: 12px;
 	resize: none;
-	
+
 }
 
 /* Denne classe styler min knap som ses under kontakt form. Btn:hover gør at når man sætter musen over at teksten skifter farve til sort. */
@@ -138,7 +138,7 @@ section{
 	padding: 15px;
 	margin-left: 300px;
 	margin-right: 680px;
-	margin-top: 0px; 
+	margin-top: 0px;
 }
 
 .btn:hover{
@@ -183,10 +183,10 @@ section{
 /* Gør det muligt at lægge et gradient over bileldet - .relative er med til at teksten ind over billedet og derfor den er stylet som en "position" relativ. */
 .square {
   height: 270px;
-  width: 300px; 
+  width: 300px;
   position: relative;
 }
-	
+
 .square:before {
   content: '';
   display: block;
@@ -374,7 +374,7 @@ section{
 	padding-top: 30px;
 	padding-right: 30px;
 	padding-bottom: 30px;
-	padding-left: 220px; 
+	padding-left: 220px;
 }
 
 .hjaelpmed{
@@ -523,7 +523,7 @@ section{
 
 .containerbox{
 	width: 80%;
-	display: flex;	
+	display: flex;
 	margin-left: 200px;
 	margin-top: 0px;
 }
@@ -572,7 +572,7 @@ section{
 	padding-top: 30px;
 	padding-right: 30px;
 	padding-bottom: 30px;
-	padding-left: 175px; 
+	padding-left: 175px;
 }
 
 .navn{
@@ -684,6 +684,3 @@ footer{
 	padding-right: 50px;
 	float: right;
 }
-	
-
-	
