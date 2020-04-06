@@ -55,7 +55,7 @@ section{
 	width: 100%
 }
 
-#kontaktmig{
+#ikoner{
 	height: 800px;
 	background: #C0C8CA;
 	display: inline-block;
@@ -64,7 +64,7 @@ section{
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
-#tidligereprojekter{
+#knapper{
 	height: 1240px;
 	background: #FFFFFF;
 	display: inline-block;
@@ -73,7 +73,7 @@ section{
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
-#minefaerdigheder{
+#typogafi{
 	height: 1070px;
 	background: #FFB1B8;
 	display: inline-block;
@@ -82,7 +82,7 @@ section{
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
-#hvemerjeg{
+#farver{
 	height: 740px;
 	background: #ffffff;
 	display: inline-block;
@@ -92,7 +92,7 @@ section{
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 /* Alle elementer til forsiden ligger under denne sektion*/
 
-#forside{
+#introduktion{
 	height: 720px;
 	background: #162324;
 	display: inline-block;
