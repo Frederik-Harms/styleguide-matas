@@ -55,25 +55,7 @@ nav li a:active{
 	    float: left;
 			padding-top: 21px;
 			padding-left: 21px;
-			height: 50px;
-			width: 209px;
 }
-
-/* ----------------------------------------------Responsivitet--------------------------------------------
-@media only screen and (min-width: 1024px) { /* ------------RESPONSIV TIL iPAD PRO--------------------
-
-}
-
-@media only screen and (min-width: 768px) { /* ------------RESPONSIV TIL ALMIDNELIG iPAD--------------*
-	.mataslogo {
-		    display: table;
-		    float: left;
-				padding-top: 20px;
-				padding-left: 21px;
-				height: 50px;
-				width: 210px;
-	}
---------------*/
 
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
@@ -102,11 +84,157 @@ section{
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
 #typogafi{
-	height: 1000px;
+	padding-top: 150px;
+	height: 1500px;
 	background: #FFB1B8;
 	display: inline-block;
 	width: 100%;
 }
+
+.typografih h2 {
+	margin: 0;
+	padding-top: 150px;
+	padding-left: 50px;
+	float: left;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 42pt;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.typografih h4 {
+	margin-top: 45px;
+	padding-left: 50px;
+	padding-right: 200px;
+	float: left;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 20pt;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+.tsh p {
+	margin: 0 1500px 0 0;
+	padding-left: 50px;
+	float: left;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 20pt;
+	font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	 float: left;
+  width: 33.33%;
+  color: black;
+}
+
+.row {
+	margin-left: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*
+.typescaleeks {
+	margin-top: 100px;
+	margin: 0;
+	padding-left: 50px;
+	float: left;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 20pt;
+	font-weight: 600;
+	list-style: none;
+}
+
+.rubrik {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: baseline;
+	-ms-flex-align: baseline;
+	align-items: baseline;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.hskrift {
+	margin-right: 70px;
+}
+
+.hstr {
+	margin-right: 70px;
+}
+
+.hfont {
+	margin-right: 70px;
+} */
+
+/* div class="TypeScale">
+	<ul class="typescaleeks">
+		<li class="rubrik">
+			<div class="hskrift">
+				<h1>Overskrift Et - H1</h1>
+			</div>
+			<div class="hstr">
+					<p class="str">32px / 2.46154em</p>
+				</div>
+			<div class="hfont">
+					<p class="font">Century Gothic</p>
+				</div>
+		</li>
+		<li class="rubrik">
+			<div class="hskrift">
+				<h2>Overskrift To - H2</h2>
+			</div>
+			<div class="hstr">
+					<p class="str">32px / 2.46154em</p>
+				</div>
+			<div class="hfont">
+					<p class="font">Century Gothic</p>
+				</div>
+		</li>
+		<li class="rubrik">
+			<div class="hskrift">
+				<h3>Overskrift Tre - H3</h3>
+			</div>
+			<div class="hstr">
+					<p class="str">32px / 2.46154em</p>
+				</div>
+			<div class="hfont">
+					<p class="font">Century Gothic</p>
+				</div>
+		</li>
+		<li class="rubrik">
+			<div class="hskrift">
+				<h4>Overskrift Fire - H4</h4>
+			</div>
+			<div class="hstr">
+					<p class="str">32px / 2.46154em</p>
+				</div>
+			<div class="h4font">
+					<p class="font">Century Gothic</p>
+				</div>
+		</li>
+	</ul>
+</div> -->
+
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
@@ -118,51 +246,184 @@ section{
 	width: 100%;
 }
 
+#farver h2 {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 45pt;
+	font-weight: 600;
+
+}
+
 .flex-container-wrap {
-		padding: 10px;
-	  margin: 10px;
-	  list-style: none;
-	  -ms-box-orient: horizontal;
-	  display: -webkit-box;
-	  display: -moz-box;
-	  display: -ms-flexbox;
-	  display: -moz-flex;
-	  display: -webkit-flex;
-	  display: flex;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0 200px 0 200px;
+	justify-content: center;
 }
-
-.wrap    {
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
 .font-CTA {
   background: #000000;
   padding: 10px;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
 
-  line-height: 150px;
-  color: white;
-	font-family: 'Century Gothic'
+  line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
   font-size: 2em;
   text-align: center;
+	margin: 10px;
 }
-
-.kampagnebaggrund {
-  background: #f6f1ee;
-	border-radius: 1px;
-	background-color: #000000
+.ChatCTA {
+  background: #002643;
   padding: 10px;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
 
-  line-height: 150px;
-  color: #000000;
-	font-family: 'Century Gothic'
-  font-weight: bold;
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
   font-size: 2em;
   text-align: center;
+	margin: 10px;
+}
+.oenskeliste {
+  background: #6b3b45;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+}
+.spar-tilbud {
+  background: #C94C36;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+}
+.natur {
+  background: #53811E;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+}
+.favoritter {
+  background: #E85A61;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+}
+.abonnerCTA {
+  background: #73b4c7;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+}
+.fastlavpris {
+  background: #f49d75;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+}
+.flerevarianter {
+  background: #E9B1AC;
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+	line-height: 200px;
+
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+}
+.kampagnebaggrund {
+  background: #F3F1EF;
+	padding: 9px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+  font-family: 'Century Gothic';
+	color: #000000;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+	border: 1px solid black;
+}
+.footer {
+  background: #f6f6f6;
+  padding: 9px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #000000;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+	border: 1px solid black;
+}
+.hvid {
+  background: #ffffff;
+  padding: 9px;
+  width: 300px;
+  height: 200px;
+
+	line-height: 200px;
+	font-family: 'Century Gothic';
+	color: #000000;
+  font-size: 2em;
+  text-align: center;
+	margin: 10px;
+	border: 1px solid black;
 }
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
@@ -170,13 +431,13 @@ section{
 
 #introduktion{
 	padding-top: 150px;
-	height: 750px;
+	height: 1200px;
 	background: #ffffff;
 	display: inline-block;
 	width: 100%;
 }
 
-h1 {
+#introduktion h1 {
 	margin: 0;
 	padding-top: 20px;
 	text-align: center;
@@ -185,8 +446,7 @@ h1 {
 	font-size: 45pt;
 	font-weight: 600;
 }
-
-h2 {
+#introduktion h2 {
 	margin: 60px 0 0 0;
 	text-align: center;
 	font-family: 'Century Gothic';
@@ -194,8 +454,7 @@ h2 {
 	font-size: 20pt;
 	font-weight: 300;
 }
-
-h3 {
+#introduktion h3 {
 	margin: 50px 0 0 0;
 	text-align: center;
 	font-family: 'Century Gothic';
@@ -227,7 +486,6 @@ h3 {
   margin: 0;
 	padding-left: 80px;
 	padding-right: 80px;
-
 }
 
 .hesehuslogo {
