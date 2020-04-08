@@ -1,3 +1,8 @@
+@font-face {
+	src: url(font/Century-Gothic.ttf);
+	font-family: 'Century Gothic';
+}
+
 /* Gør det muligt at når man trykker på siderne, så ruller den stille og roligt ned til den valgte side. Dette er en meget ny funktion, og derfor understøttes det ikke til alle browser.*/
 html{
 	scroll-behavior: smooth;
