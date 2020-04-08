@@ -131,7 +131,11 @@
 			</wrapper>
 		<wrapper class="knapper">
 			<ul class="flex-container-wrap-knapper">
+
 				<li class="laegikurv">Læg i kurv</li>
+				<input id="myInp" type="text">
+				<button id="btnCopy">Copy</button>
+
 				<li class="laegikurvp">Læg i kurv</li>
 				<li class="findibutik">Find i butik</li>
 				<li class="skrivenanmeldelse">Skriv en anmeldelse</li>
@@ -144,6 +148,23 @@
 			</div>
 	</section>
 
-
 </body>
+
+<script type="text/javascript">
+	const myInp = document.getElementById("myInp");
+	const btnCopy = document.getElementById("btnCopy");
+
+	btnCopy.onclick = function () {
+		// Step 1: select the text //
+		myInp.select();
+
+		// Step 2: Copying the text //
+		document.execCommand("Copy");
+	};
+
+</script>
+
+
+
+
 </html>
