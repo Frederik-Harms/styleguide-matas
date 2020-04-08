@@ -60,21 +60,168 @@ nav li a:active{
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
 
-
-#ikoner{
-	height: 1200px;
-	background: #ffffff;
-	display: inline-block;
-	width: 100%;
-}
-
-/* ------------------------------------------------NY SEKTION----------------------------------------------*/
-
 #knapper{
 	height: 1200px;
 	background: #f6f1ee;
 	display: inline-block;
 	width: 100%;
+}
+
+.overskrifter h2 {
+	margin: 0;
+	padding-top: 150px;
+	padding-left: 50px;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 40pt;
+	font-weight: 600;
+}
+
+.overskrifter h4 {
+	margin: 0;
+	padding-top: 50px;
+	padding-left: 50px;
+	font-family: 'Century Gothic';
+	color:#000000;
+	font-size: 20pt;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+.flex-container-wrap-knapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	align-content: flex-end;
+	margin: 0;
+	padding: 100px 200px 0 200px;
+	list-style: none;
+}
+
+.laegikurv {
+  background: #000000;
+  padding: 20px;
+  width: 200px;
+	height: 30px;
+
+  line-height: 30px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+  text-align: center;
+	margin: 10px;
+}
+.laegikurvp {
+  background: #000000;
+  padding: 20px;
+  width: 200px;
+	height: 50px;
+
+  line-height: 50px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+  text-align: center;
+	margin: 10px;
+}
+.findibutik {
+  background: #ececec;
+	border: 1px solid #b8b8b8;
+  padding: 20px;
+  width: 200px;
+	height: 50px;
+
+  line-height: 50px;
+	font-family: 'Century Gothic';
+	color: #000000;
+  font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+  text-align: center;
+	margin: 10px;
+}
+.skrivenanmeldelse {
+	background: #000000;
+  padding: 20px;
+  width: 320px;
+	height: 30px;
+
+  line-height: 30px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+  text-align: center;
+	margin: 10px;
+}
+.abonner {
+	background: #74b5c8;
+  padding: 20px;
+  width: 200px;
+	height: 30px;
+
+  line-height: 30px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+  text-align: center;
+	margin: 10px;
+}
+.dinepræferencer {
+	background: #EB595E;
+  padding: 20px;
+  width: 200px;
+	height: 50px;
+
+  line-height: 50px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+  text-align: center;
+	margin: 10px;
+}
+.filtre {
+	background: #647AAC;
+  padding: 20px;
+  width: 200px;
+	height: 50px;
+
+  line-height: 50px;
+	font-family: 'Century Gothic';
+	color: #ffffff;
+  font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+  text-align: center;
+	margin: 10px;
+}
+.sealleanmeldelser {
+	background: #ececec;
+	border: 1px solid #b8b8b8;
+  padding: 20px;
+  width: 320px;
+	height: 30px;
+
+  line-height: 30px;
+	font-family: 'Century Gothic';
+	color: #000000;
+  font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+  text-align: center;
+	margin: 10px;
 }
 
 /* ------------------------------------------------NY SEKTION----------------------------------------------*/
